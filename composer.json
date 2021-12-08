@@ -1,0 +1,19 @@
+{
+    "name": "himanshu/my-composer-package",
+    "description": "A simple hello world composer package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Himanshu Sahu",
+            "email": "himanshusahu@cedcoss.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-0": {
+            "HelloWorld": "src/"
+        }
+    }
+}
